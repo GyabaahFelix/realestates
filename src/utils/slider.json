@@ -1,0 +1,38 @@
+[
+  {
+    "name": "East Legon",
+    "price": "47,043",
+    "detail": "One of the most affluent and upscale residential areas in Accra, known for its high-end shopping centers, restaurants, and gated communities.",
+    "image": "./r1.png"
+  },
+  {
+    "name": "Osu",
+    "price": "66,353",
+    "detail": "A bustling and cosmopolitan community, known for its lively nightlife, trendy restaurants, and the historic Osu Castle.",
+    "image": "./r2.png"
+  },
+  {
+    "name": "Labone",
+    "price": "35,853",
+    "detail": "A quiet and upscale residential area, popular with expatriates and diplomats, featuring large homes and well-manicured gardens.",
+    "image": "./r3.png"
+  },
+  {
+    "name": "Tema",
+    "price": "47,043",
+    "detail": "A planned city located about 25 kilometers east of Accra, developed as an industrial hub and home to several residential neighborhoods.",
+    "image": "./r1.png"
+  },
+  {
+    "name": "Madina",
+    "price": "66,353",
+    "detail": "A rapidly growing suburb, characterized by a mix of residential areas, markets, and commercial developments.",
+    "image": "./r2.png"
+  },
+  {
+    "name": "Airport Residential Area",
+    "price": "35,853",
+    "detail": "An upscale residential community located near Kotoka International Airport, known for its large, luxurious homes and the presence of many diplomatic missions and international organizations.",
+    "image": "./r3.png"
+  }
+]
