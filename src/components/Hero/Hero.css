@@ -120,6 +120,10 @@ font-size: 1.5rem;
         width: 65%; /* Adjust input width to fit within reduced padding */
     }
 
+    .search-bar .button{
+        display: none;
+    }
+
     .hero-title > h1 {
         font-size: 2rem; /* Adjust title size for smaller screens */
         line-height: 2.5rem;
