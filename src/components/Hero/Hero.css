@@ -107,3 +107,34 @@ font-size: 1.5rem;
         font-size: 0.8rem;
     }
 }
+
+@media (max-width: 375px) {
+    .search-bar {
+        padding: 0.3rem 0.8rem; /* Reduce padding to make it thinner */
+        width: 80%; /* Slightly reduce width for a more compact look */
+        height: 50px;
+        margin: 0 auto; /* Center the search bar */
+    }
+
+    .search-bar > input {
+        width: 65%; /* Adjust input width to fit within reduced padding */
+    }
+
+    .hero-title > h1 {
+        font-size: 2rem; /* Adjust title size for smaller screens */
+        line-height: 2.5rem;
+    }
+
+    .image-container {
+        width: 90%; /* Adjust image width */
+        height: 20rem; /* Adjust image height */
+    }
+
+    .stat > :nth-child(1) {
+        font-size: 1.2rem; /* Adjust font size for stats */
+    }
+
+    .stat:nth-child(2) {
+        font-size: 0.7rem; /* Adjust font size for description */
+    }
+}
