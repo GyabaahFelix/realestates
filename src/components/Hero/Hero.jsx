@@ -10,7 +10,7 @@ const Hero = () => {
             {/* left side */}
             <div className="flexColStart hero-left">
                 <div className="hero-title">
-                    <div className="orange-circle"/>
+                    <div className="purple-circle"/>
                     <motion.h1
                     initial={{y:"2rem", opacity: 0}}
                     animate={{y: 0, opacity: 1}}
@@ -31,14 +31,14 @@ const Hero = () => {
 
                 <div className="flexCenter search-bar">
                     <HiLocationMarker color="var(--blue)" size={25}/>
-                    <input type="text" />
+                    <input type="text" placeholder='Search here' />
                     <button className="button">Search</button>
                 </div>
 
                 <div className="flexCenter stats">
                     <div className="flexColCenter stat">
                         <span>
-                            <CountUp start={8800} end={9000} duration={4}/>
+                            <CountUp start={800} end={15000} duration={4}/>
                             <span>+</span>
                         </span>
                       <span className='secondaryText'>Premium Products</span>
@@ -46,7 +46,7 @@ const Hero = () => {
 
                     <div className="flexColCenter stat">
                         <span>
-                            <CountUp start={1950} end={2000} duration={4}/>
+                            <CountUp start={1533} end={7000} duration={4}/>
                             <span>+</span>
                         </span>
                       <span className='secondaryText'>Happy Customers</span>
@@ -54,7 +54,7 @@ const Hero = () => {
 
                     <div className="flexColCenter stat">
                         <span>
-                            <CountUp end={28}/>
+                            <CountUp end={150}/>
                             <span>+</span>
                         </span>
                       <span className='secondaryText'>Award Winnings</span>
